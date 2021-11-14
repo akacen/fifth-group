@@ -1,8 +1,3 @@
 <resources>
     <string name="app_name">Hello World</string>
-    <string name="title">This is the first application from Group 5</string>
-    <string name="antra_kacena">Antra Kacena </string>
-    <string name="kristers_bitainis">Kristers Bitainis</string>
-    <string name="justine_liene_laumane">Justīne Liene Laumane</string>
-    <string name="footer">And the application was developed by Antra Kacena</string>
 </resources>
