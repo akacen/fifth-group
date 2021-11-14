@@ -7,4 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="374dp"
+      android:layout_height="341dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="32dp"
+      android:layout_marginBottom="32dp"
+      android:text="This is the first application from Group 5:
+      \n 1. Kristers Bitainis
+      \n 2. Antra Kacena
+      \n 3. Justīne Liene Laumane
+      \n\n And the application was developed by Kristers Bitainis"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.526"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.261"
+      tools:ignore="HardcodedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
