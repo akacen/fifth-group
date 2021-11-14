@@ -7,4 +7,64 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <TextView
+      android:id="@+id/txtTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/title"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.283" />
+
+  <TextView
+      android:id="@+id/txtNameJustine"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/name_justine"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+      app:layout_constraintVertical_bias="0.107" />
+
+  <TextView
+      android:id="@+id/txtNameKristers"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/name_kristers"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtNameJustine"
+      app:layout_constraintVertical_bias="0.069" />
+
+  <TextView
+      android:id="@+id/txtNameAntra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/name_antra"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtNameKristers"
+      app:layout_constraintVertical_bias="0.088" />
+
+  <TextView
+      android:id="@+id/txtEndTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/end_title"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.615"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtNameAntra"
+      app:layout_constraintVertical_bias="0.624" />
+</androidx.constraintlayout.widget.ConstraintLayout>
