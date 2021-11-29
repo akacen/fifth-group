@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Hello World</string>
+    <string name="_1st_activity">1-st Activity</string>
+    <string name="go_to_2nd">Go to 2-nd</string>
+    <string name="dialog">Dialog</string>
+    <string name="_2nd_activity">2-nd Activity</string>
+    <string name="back">Back</string>
+    <string name="kristers_bitainis">Kristers Bitainis</string>
+    <string name="antra_kacena">Antra Kacena</string>
+    <string name="justine_liene_laumane">Justine Liene Laumane</string>
 </resources>
